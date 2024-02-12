@@ -1,0 +1,76 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container header{
+    display: flex;
+    width: 96%;
+    padding: 5px 2% 10px;
+    background-color: #0077ff;
+}
+header a{
+    color: #000000;
+    text-decoration: none;
+    width: 70%;
+}
+header h1{
+    margin: 0;
+    font-size: 30pt;
+}
+header form {
+    margin: auto;
+}
+
+main{
+    padding: 2%;
+    padding-top: 0;
+    display: flex;
+    width:96%;
+}
+main .add{
+    width: 40%;
+}
+main .add form label{
+    display: inline-flex;
+    width: 40%;
+    margin-bottom: 5px;
+} 
+main .add form input{
+    width: 50%;
+}
+main .add form select{
+    width: 51%;
+    height: 20px;
+}
+main .add form button{
+    margin: 20px 40%;
+    text-align: center;
+}
+main .table-data{
+    margin-top: 10px;
+    width: 60%;
+}
+main .table-data form{
+    display: flex;
+}
+main .table-data form p{
+    margin-right: 10px;
+}
+main .table-data form select,main .table-data form button {
+    height: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+}
+main table{
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 300px;
+}
+main .table-data table tr td{
+    border: 2px solid black;
+    padding: 3px;
+    text-align: center;
+}
